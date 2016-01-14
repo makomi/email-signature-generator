@@ -1,0 +1,61 @@
+# email signature generator (emsig)
+
+simple Python script for config-based generation of multiple (HTML) email signatures from a single template
+
+    *emsig*, German adjective
+    1. busy
+    2. diligent
+
+
+## What it does
+
+It helps you avoid manually editing large numbers of email signatures to update a company's address or event information. Instead you rather update the company's and employees' details in the config, improve the template, and let the script do the leg-work.
+
+
+## Getting started
+
+    $ ./generate.py
+
+Requires Python v3.2 or later.
+
+It requires a config and template file. The template file contains placeholders for information stored in the config file.
+
+The config by and large uses the `.ini` file format.
+
+
+## Contributing
+
+This script currently does everything I need it to do. However, if you have a neat idea for a new feature or some other improvement, I would love to recieve a pull request from you:
+
+1. [Fork it][fork]
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit all your changes: `git commit -am 'add some feature'`
+4. Push to your feature branch: `git push origin my-new-feature`
+5. Submit a [pull request][pr]
+
+
+## License
+
+**GNU General Public License v3.0**
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 3, as published by the Free Software Foundation.
+
+See [LICENSE][license-file] for details.
+
+
+## Comparable projects
+
+This looks like a great alternative to my project:
+* [fadeit/responsive-html-email-signature](https://github.com/fadeit/responsive-html-email-signature)
+
+
+## Source
+
+This project was developed by Matthias Kolja Miehl. You can get the newest version from the [project's website](http://github.com/makomi/email-signature-gen/).
+
+
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+[pr]: https://help.github.com/articles/creating-a-pull-request/
+[license-file]: LICENSE
+
