@@ -19,9 +19,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# DESCRIPTION
-# simple Python script for config-based generation of multiple
-# (HTML) email signatures from a single template
+"""
+DESCRIPTION: simple Python script for config-based generation of multiple
+             (HTML) email signatures from a single template
+TASK       : automatically generate an email signature for every person in a company
+UPDATES    : https://github.com/makomi/email-signature-gen
+"""
+
 
 # -----------------------------------------------------------------------------
 
