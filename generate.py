@@ -147,4 +147,4 @@ for person in cfg.sections():
 
 
 # let user read the script's output
-input("Everything done!\n\nPlease, check the files for errors ... ")
+#input("Everything done!\n\nPlease, check the files for errors ... ")
