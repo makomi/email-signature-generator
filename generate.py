@@ -106,6 +106,7 @@ for person in cfg.sections():
         tel_base     = ConfigSectionMap(person)['tel_base']
         tel_generic  = ConfigSectionMap(person)['tel_generic']
         tel          = ConfigSectionMap(person)['tel']
+        mobile       = ConfigSectionMap(person)['mobile']
         fax          = ConfigSectionMap(person)['fax']
         email        = ConfigSectionMap(person)['email']
         url          = ConfigSectionMap(person)['url']
@@ -125,6 +126,7 @@ for person in cfg.sections():
                 'tel_base':tel_base,
                 'tel_generic':tel_generic,
                 'tel':tel,
+                'mobile':mobile,
                 'fax':fax,
                 'email':email,
                 'url':url,
