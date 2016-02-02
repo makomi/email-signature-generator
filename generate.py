@@ -117,6 +117,12 @@ for person in cfg.sections():
         state        = ConfigSectionMap(person)['state']
         managers     = ConfigSectionMap(person)['managers']
         local_court  = ConfigSectionMap(person)['local_court']
+        # FIXME: dirty hack
+        # this field is optional
+        try:
+            more_text    = ConfigSectionMap(person)['more_text']
+        except:
+            pass
 
         # assemble dataset for signature
         d = {
@@ -136,7 +142,8 @@ for person in cfg.sections():
                 'city':city,
                 'state':state,
                 'managers':managers,
-                'local_court':local_court
+                'local_court':local_court,
+                'more_text':more_text
             }
 
         # substitute variables in template, save as result
