@@ -12,6 +12,18 @@ simple Python script for config-based generation of multiple (HTML) email signat
 It reliefs you from the burden of manually editing large numbers of email signatures to update company, event, or employee information. Instead you update the information in the [data file][data-file], update the design of the [HTML template][html-template], and let the [script][script] generate the HTML signatures for all your employees.
 
 
+### Key Features
+
+* *Reuse of provided information*  
+Department information can be entered once and used for every person's record, e.g. department name and telephone number.
+
+* *Optional free text*  
+Feel free to add role or employee specific text to all or selected signatures, e.g. the rates for calling the support team to the signatures of all support team members.
+
+* *Optional line with mobile phone number*  
+Add a mobile phone number to records of people that have one and omit it for those who don't. The respective line will only be present in the signature of those employees, that actually have a mobile.
+
+
 ## Getting started
 
     $ ./generate.py
