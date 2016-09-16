@@ -9,23 +9,23 @@ simple Python script for config-based generation of multiple (HTML) email signat
 
 ## What it does
 
-It helps you avoid manually editing large numbers of email signatures to update a company's address or event information. Instead you just update the company's and employees' details in the config, improve the template, and let the script do the leg-work.
+It reliefs you from the burden of manually editing large numbers of email signatures to update company, event, or employee information. Instead you update the information in the data file, update the design of the HTML template, and let the script generate the HTML signatures for all your employees.
 
 
 ## Getting started
 
     $ ./generate.py
 
-It requires Python v3.2 or later, so you may have to use `python3 generate.py`.
+It requires Python v3.2 or later. Depending on your setup, you may have to use `python3 generate.py`.
 
-It reads in a config and template file. The template file contains placeholders for information stored in the config file.
+When you execute the script, it reads the data file with the company's and every person's contact details as well as the HTML signature template file. The HTML template defines the design of the final HTML signatures and contains placeholders for information stored in the data file. The script then replaces all placeholders with the company's and a person's respective information and saves the resulting HTML signature files to the `output` folder.
 
-The config by and large uses the `.ini` file format.
+The data file uses an extended `.ini` format.
 
 
 ## Contributing
 
-This script currently provides minimal functionality. Have a look at the [open issues][issues] for ideas on how to contribute. Furthermore, if you have a neat idea for a new feature or some other improvement, I would love to recieve a pull request from you:
+This script currently provides minimal functionality and is suitable for production use. Have a look at the [open issues][issues] for ideas on how to contribute. Furthermore, if you have a neat idea for a new feature or some other improvement, I am looking forward to recieving a pull request from you:
 
 1. [Fork it][fork]
 2. Create your feature branch: `git checkout -b my-new-feature`
