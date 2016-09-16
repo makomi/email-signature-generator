@@ -9,7 +9,7 @@ simple Python script for config-based generation of multiple (HTML) email signat
 
 ## What it does
 
-It reliefs you from the burden of manually editing large numbers of email signatures to update company, event, or employee information. Instead you update the information in the data file, update the design of the HTML template, and let the script generate the HTML signatures for all your employees.
+It reliefs you from the burden of manually editing large numbers of email signatures to update company, event, or employee information. Instead you update the information in the [data file][data-file], update the design of the [HTML template][html-template], and let the [script][script] generate the HTML signatures for all your employees.
 
 
 ## Getting started
@@ -54,6 +54,9 @@ You can get the newest version from the [project's website][project-website].
 
 
 
+[html-template]: signature.template.html
+[data-file]: data.cfg
+[script]: generate.py
 [issues]: https://github.com/makomi/email-signature-gen/issues
 [fork]: https://help.github.com/articles/fork-a-repo/
 [pr]: https://help.github.com/articles/creating-a-pull-request/
