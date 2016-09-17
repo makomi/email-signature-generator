@@ -2,7 +2,7 @@
 
 simple Python script for config-based generation of multiple (HTML) email signatures from a single template
 
-    *emsig*, German adjective
+    "emsig", German adjective
     1. busy
     2. diligent
 
