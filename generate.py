@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # generate.py: simple Python script for config-based generation of
-# multiple (HTML) email signatures from a single template
+#              multiple (HTML) email signatures from a single template
+#
 # Copyright (C) 2015  Matthias Kolja Miehl
 # 
 # This program is free software: you can redistribute it and/or modify
@@ -15,9 +19,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 """
 DESCRIPTION: simple Python script for config-based generation of multiple
