@@ -28,7 +28,7 @@ Add a mobile phone number to records of people that have one and omit it for tho
 
     $ ./generate.py
 
-It requires Python v3.2 or later. Depending on your setup, you may have to use `python3 generate.py`.
+It requires Python v3.2 or later.
 
 When you execute the script, it reads the data file with the company's and every person's contact details as well as the HTML signature template file. The HTML template defines the design of the final HTML signatures and contains placeholders for information stored in the data file. The script then replaces all placeholders with the company's and a person's respective information and saves the resulting HTML signature files to the `output` folder.
 
