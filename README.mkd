@@ -1,21 +1,34 @@
-# email signature generator (emsig)
+# email signature generator
 
-simple Python script for config-based generation of multiple (HTML) email signatures from a single template
-
-    "emsig", German adjective
-    1. busy
-    2. diligent
+Python script for generating email signatures from a single (HTML) template for all employees at once
 
 
 ## What it does
 
-It reliefs you from the burden of manually editing large numbers of email signatures to update company, event, or employee information. Instead you update the information in the [data file][data-file], update the design of the [HTML template][html-template], and let the [script][script] generate the HTML signatures for all your employees.
+It reliefs you from the burden of manually editing large numbers of email signatures to update company, event, or employee information. Instead you update the information in the [data set][data-set], the design of the [template][template], and let the [script][script] generate the HTML signatures for all your employees.
+
+    data set
+        +    -> script -> signatures
+    template
+
+The included template is kept simple as it merily aims to show which placeholders can be used. Use your individual signature by adding placeholders and renaming it to `signature.template.html`.
 
 
-### Key Features
+### Use cases
 
-* *Reuse of provided information*  
-Department information can be entered once and used for every person's record, e.g. department name and telephone number.
+This is the right tool for you, if a large number of employee email signatures have to be updated.
+The more often this happens, the bigger the company is, and the more information has to be changed in each signature, the more useful this tool will be for you.
+
+Typical reasons for updating many email signatures at once:
+* Announcements, e.g. trade fairs or special offers.
+* Update of basic company information, e.g. company or department relocation, new CEO, company logo, or social media accounts.
+* The marketing department likes to continuously tweak the design of the signature.
+
+
+### Key features
+
+* *Reuse of information*  
+Once information was entered in one section of the configuration it can be reused in any other section, e.g. a department's name and telephone number can be referenced for all employees of that department.
 
 * *Optional free text*  
 Feel free to add role or employee specific text to all or selected signatures, e.g. the rates for calling the support team to the signatures of all support team members.
@@ -24,9 +37,20 @@ Feel free to add role or employee specific text to all or selected signatures, e
 Add a mobile phone number to records of people that have one and omit it for those who don't. The respective line will only be present in the signature of those employees, that actually have a mobile.
 
 
+### Available input fields
+
+The following fields are customizable via the data set.
+Additional information such as email disclaimer statements is best written directly into the template.
+
+* Company: company name, street, city, state, zip code, telephone, website, top executives, local court
+* Employee: first name, last name, department, telephone, mobile, fax, email, additional free form text
+
+
 ## Getting started
 
-    $ ./generate.py
+```bash
+$ ./generate.py
+```
 
 It requires Python v3.2 or later.
 
@@ -66,8 +90,8 @@ You can get the newest version from the [project's website][project-website].
 
 
 
-[html-template]: signature.template.html
-[data-file]: data.cfg
+[template]: signature.template.html
+[data-set]: data.cfg
 [script]: generate.py
 [issues]: https://github.com/makomi/email-signature-gen/issues
 [fork]: https://help.github.com/articles/fork-a-repo/
