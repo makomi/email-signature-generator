@@ -1,8 +1,6 @@
 # email signature generator
 
 [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive "Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.")
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/makomi/email-signature-generator.svg)](http://isitmaintained.com/project/makomi/email-signature-generator "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/makomi/email-signature-generator.svg)](http://isitmaintained.com/project/makomi/email-signature-generator "Percentage of issues still open")
 
 Python script for generating email signatures from a single (HTML) template for all employees at once
 
