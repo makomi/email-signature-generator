@@ -15,13 +15,13 @@ It reliefs you from the burden of manually editing large numbers of email signat
         +    -> script -> signatures
     template
 
-The included template is kept simple as it merily aims to show which placeholders can be used. Use your individual signature by adding placeholders and renaming it to `signature.template.html`.
+The included template is kept simple as it merily aims to show which placeholders can be used. Use an individual signature design by adding placeholders and renaming it to `signature.template.html`.
 
 
 ### Use cases
 
 This is the right tool for you, if a large number of employee email signatures have to be updated.
-The more often this happens, the bigger the company is, and the more information has to be changed in each signature, the more useful this tool will be for you.
+The more often this happens, the more employees the company has, and the more information has to be changed in each signature, the more useful this tool will be for you.
 
 Typical reasons for updating many email signatures at once:
 * Announcements, e.g. trade fairs or special offers.
@@ -44,7 +44,7 @@ Add a mobile phone number to records of people that have one and omit it for tho
 ### Available input fields
 
 The following fields are customizable via the data set.
-Additional information such as email disclaimer statements is best written directly into the template.
+Additional information such as an email disclaimer statement is best written directly into the template.
 
 * Company: company name, street, city, state, zip code, telephone, website, top executives, local court
 * Employee: first name, last name, department, telephone, mobile, fax, email, additional free form text
@@ -65,7 +65,7 @@ The data file uses an extended `.ini` format.
 
 ## Contributing
 
-This script currently provides minimal functionality and is suitable for production use. Have a look at the [open issues][issues] for ideas on how to contribute. Furthermore, if you have a neat idea for a new feature or some other improvement, I am looking forward to recieving a pull request from you:
+This script currently provides minimal functionality and is suitable for production use. Have a look at the [open issues][issues] for ideas on how to contribute. Furthermore, if you have a neat idea for a new feature or some other improvement, I am looking forward to receiving a pull request from you:
 
 1. [Fork it][fork]
 2. Create your feature branch: `git checkout -b my-new-feature`
